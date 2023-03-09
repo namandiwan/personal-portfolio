@@ -5,9 +5,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   dataabout,
   meta,
+  education,
   worktimeline,
   skills,
-  services,
 } from "../../content_option";
 
 export const About = () => {
@@ -30,14 +30,30 @@ export const About = () => {
             <h3 className="color_sec py-4">{dataabout.title}</h3>
           </Col>
           <Col lg="7" className="d-flex align-items-center">
-            <div>
+            <div style={{textAlign: "justify"}}>
               <p>{dataabout.aboutme}</p>
+            </div>
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">{education.title}</h3>
+          </Col>
+          <Col lg="7" className="d-flex align-items-center">
+            <div>
+              <ul style={{ listStyleType: "circle" }}><li>{education.description1}<ul style={{ listStyleType: "square" }}>
+                <li>{education.major1}</li>
+                <li>{education.year1}</li>
+              </ul></li>&nbsp;<li>{education.description2}<ul style={{ listStyleType: "square" }}>
+                <li>{education.major2}</li>
+                <li>{education.year2}</li>
+              </ul></li></ul>
             </div>
           </Col>
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Work Timeline</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -74,21 +90,6 @@ export const About = () => {
                       <div className="progress-value">{data.value}%</div>
                     </div>
                   </div>
-                </div>
-              );
-            })}
-          </Col>
-        </Row>
-        <Row className="sec_sp">
-          <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
-          </Col>
-          <Col lg="7">
-            {services.map((data, i) => {
-              return (
-                <div className="service_ py-4" key={i}>
-                  <h5 className="service__title">{data.title}</h5>
-                  <p className="service_desc">{data.description}</p>
                 </div>
               );
             })}

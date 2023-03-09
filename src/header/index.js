@@ -38,10 +38,13 @@ const Headermain = () => {
                   <Link  onClick={handleToggle} to="/" className="my-3">Home</Link>
                   </li>
                   <li className="menu_item">
-                    <Link  onClick={handleToggle} to="/portfolio" className="my-3"> Portfolio</Link>
+                  <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
                   </li>
                   <li className="menu_item">
-                  <Link onClick={handleToggle} to="/about" className="my-3">About</Link>
+                    <Link  onClick={handleToggle} to="/projects" className="my-3"> Projects</Link>
+                  </li>
+                  <li className="menu_item">
+                    <Link  onClick={handleToggle} to="/testimonials" className="my-3"> Testimonials</Link>
                   </li>
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
@@ -56,7 +59,7 @@ const Headermain = () => {
             <a href={socialprofils.github}>Github</a>
             <a href={socialprofils.twitter}>Twitter</a>
             </div>
-            <p className="copyright m-0">copyright __ {logotext}</p>
+            <p className="copyright m-0">copyright &copy; {logotext}</p>
           </div>
         </div>
       </header>
