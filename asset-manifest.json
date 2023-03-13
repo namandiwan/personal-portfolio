@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.c7e2fd51.css",
-    "main.js": "/personal-portfolio/static/js/main.28e582d7.js",
-    "static/media/profilepic.jpg": "/personal-portfolio/static/media/profilepic.77caa1a8d9564fd45645.jpg",
-    "static/media/NamanDiwanResumeNortheastern.pdf": "/personal-portfolio/static/media/NamanDiwanResumeNortheastern.e042d8501e592dafef24.pdf",
-    "index.html": "/personal-portfolio/index.html"
+    "main.css": "/static/css/main.c7e2fd51.css",
+    "main.js": "/static/js/main.23859903.js",
+    "static/media/profilepic.jpg": "/static/media/profilepic.77caa1a8d9564fd45645.jpg",
+    "static/media/NamanDiwanResumeNortheastern.pdf": "/static/media/NamanDiwanResumeNortheastern.e042d8501e592dafef24.pdf",
+    "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.c7e2fd51.css",
-    "static/js/main.28e582d7.js"
+    "static/js/main.23859903.js"
   ]
 }
