@@ -26,31 +26,43 @@ To run this project locally, you'll need to clone the repository and install the
 
 ### Clone the Repository
 
+```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
-
+```
 
 ### Installing Dependencies
 
 Make sure you have Node.js and npm or yarn installed on your machine. Then run:
+```bash
 npm install
+```
 or
+```bash
 yarn install
+```
 
 ### Running locally
 
 To run the project locally, use the following command:
+```bash
 npm start
+```
 or
+```bash
 yarn start
+```
 
 This will start a local development server, and you can view the website in your browser at http://localhost:3000.
 
 ### Building for Production
-
+```bash
 npm run build
+```
 or
+```bash
 yarn build
+```
 This command will create an optimized build of the project in the build/ directory, which is ready for deployment.
 
 ### Deploying
@@ -59,16 +71,24 @@ This command will create an optimized build of the project in the build/ directo
 This project is configured to deploy to GitHub Pages. The deployment process will push the contents of the build/ directory to the gh-pages branch.
 
 1. Install the gh-pages package if you haven't already:
+   ```bash
    npm install gh-pages --save-dev
+   ```
 2. Ensure that the following scripts are present in your package.json:
+   ```bash
    "scripts": {
    "predeploy": "npm run build",
    "deploy": "gh-pages -d build"
    }
+   ```
 3. Deploy the project using the command:
+   ```bash
    npm run deploy
+   ```
    or
+   ```bash
    yarn deploy
+   ```
 
 ### Custom Domain
 If you are using a custom domain, make sure to set up the CNAME file in the public/ directory with your domain name (namandiwan.com), and GitHub Pages will automatically configure your custom domain.
