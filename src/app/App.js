@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,  // Change from BrowserRouter to HashRouter
   useLocation,
 } from "react-router-dom";
 import withRouter from "../hooks/withRouter";
@@ -21,7 +21,7 @@ const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>  {/* Removed basename={process.env.PUBLIC_URL} */}
       <div className="cursor__dot">
         <AnimatedCursor
           innerSize={15}

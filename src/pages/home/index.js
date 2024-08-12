@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 import img from '../../../src/images/profilepic.jpg';
-import resume from '/Users/namandiwan/React Portfolio/react-portfolio/src/Resume/NamanDiwanResumeNortheastern.pdf';
+import resume from '../../../src/Resume/NamanDiwanResumeNortheastern.pdf';
 
 export const Home = () => {
   return (
