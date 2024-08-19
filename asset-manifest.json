@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.d3bd686e.css",
-    "main.js": "/static/js/main.ab2fb2ad.js",
+    "main.css": "/static/css/main.30524ea3.css",
+    "main.js": "/static/js/main.a5a7dec4.js",
     "static/media/NamanDiwanResumeNortheastern.pdf": "/static/media/NamanDiwanResumeNortheastern.c022355fb54a1342f388.pdf",
     "static/media/profilepic.jpg": "/static/media/profilepic.89aaaed9e50c7ba346ac.jpg",
     "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.d3bd686e.css",
-    "static/js/main.ab2fb2ad.js"
+    "static/css/main.30524ea3.css",
+    "static/js/main.a5a7dec4.js"
   ]
 }
