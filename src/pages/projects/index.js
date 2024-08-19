@@ -19,19 +19,21 @@ export const Projects = () => {
             <hr className="t_border my-4 ml-0 text-left" />
           </Col>
         </Row>
-        <div className="mb-5 po_items_ho">
+        <Row className="mb-5">
           {dataportfolio.map((data, i) => {
             return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.desctiption}</p>
-                  <a href={data.link}>view project</a>
+              <Col key={i} lg={4} md={6} className="mb-4">
+                <div className="po_item">
+                  <img src={data.img} alt="" />
+                  <div className="content">
+                    <p>{data.description}</p>
+                    <a href={data.link}>view project</a>
+                  </div>
                 </div>
-              </div>
+              </Col>
             );
           })}
-        </div>
+        </Row>
       </Container>
     </HelmetProvider>
   );
